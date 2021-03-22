@@ -10,6 +10,21 @@ h1{
     margin-left: 430px;
     color: white;
 }
+p{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;  
+    color: blue;   
+}
+
+
+
+li{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;  
+    color: blue; 
+}
 
 #p3{
     font-family: 'Dosis', sans-serif;
@@ -17,10 +32,18 @@ h1{
     font-size:large;
     color:darkgreen;
 }
+p4{
+
+}
 
 img{
     width: 300px;
 }
+
+#img2{
+    width: 800px;
+}
+
 h2{
     font-family: 'Dosis', sans-serif;
     font-family: 'Raleway', sans-serif;
