@@ -50,16 +50,10 @@ const seattle = {
         return this._const;
     },
     set const(value) {
-        this._const = value;
+        this.const = value;
     },
 ;
-ulEl.appendChild(liEl);
-liEl.textContent = ` Total: ${this.total}:cookies`;
-}
-
-};
-
-function getRandomCus(min, max) {
+ulEl.appendcRandomCus(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 seattle.CustNumber();
