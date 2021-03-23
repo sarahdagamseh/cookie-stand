@@ -2,14 +2,14 @@
 let workingHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 
 const seattle = {
-    city: 'Seattle',
-    minCust: 23,
-    maxCust: 65,
-    avg: 6.3,
-    custHour: [],
-    amnt: [],
-    total: 0,
-    CustNumber: function () {
+    this.city: 'Seattle',
+    this.minCust: minCust,
+    this.maxCust: maxCust,
+    this.avg: avg,
+    this.custHour: [],
+    this.amnt: amnt,
+    this.total: 0,
+    city.prototype.CustNumber= function () {
 
 
         for (let i = 0; i < workingHours.length; i++) {
@@ -17,14 +17,14 @@ const seattle = {
             this.custHour.push(randomFinal);
         }
     },
-    cal function () {
+    calculate function () {
         for (let i = 0; i < workingHours.length; i++) {
             const perHour = Math.ceil(this.custHour[i] * this.avg);
             this.amnt.push(perHour);
             this.total = perHour + this.total + perHour;
         }
     },
-    render: function () {
+    city.prototype.CustNumber= function() {
         const container = document.getElementById('coc');
         const divEl = document.createElement('div');
         container.appendChild(divEl);
@@ -63,7 +63,7 @@ function getRandomCus(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 seattle.CustNumber();
-seattle.cal();
+seattle.calculate();
 seattle.render();
 
 'use strict';
@@ -85,7 +85,7 @@ const tokyo = {
             this.custHour.push(randomFinal);
         }
     },
-    calculate: function () {
+        calculate: function () {
         for (let i = 0; i < workingHours.length; i++) {
             const perHour = Math.ceil(this.custHour[i] * this.avg);
             this.amnt.push(perHour);
