@@ -7,12 +7,13 @@ body
 }
 
 h1{
+    
+    font-family: 'Architects Daughter', cursive;;
     margin-left: 430px;
     color: white;
 }
 p{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Architects Daughter', cursive;;
     font-size: x-large;  
     color: blue;   
 }
@@ -20,15 +21,13 @@ p{
 
 
 li{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Architects Daughter', cursive;;
     font-size: x-large;  
     color: blue; 
 }
 
 #p3{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Architects Daughter', cursive;;
     font-size:large;
     color:darkgreen;
 }
@@ -45,16 +44,12 @@ img{
 }
 
 h2{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Architects Daughter', cursive;;
     font-size: x-large;  
     color: blue;
 }
 
 h1{
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Architects Daughter', cursive;;
     font-size: xx-large;
 }
-
-
